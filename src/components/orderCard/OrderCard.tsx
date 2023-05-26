@@ -82,6 +82,8 @@ const OrderCard = ({ order } : any) => {
                     <button className='pickUpBtn'>
                         Start Pickup in
                         <span className='ml-1 pickupHour'>
+                            {/* 
+                                // @ts-ignore */}
                             { new Date(order.start_date - actualDate).toLocaleTimeString() }
                         </span>
                     </button>
