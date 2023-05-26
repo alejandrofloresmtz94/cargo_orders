@@ -1,0 +1,63 @@
+.card {
+    border-radius: 35px 0 0 35px;
+}
+
+.card-gradient {
+    background: linear-gradient(45deg, #080C0F 0%, rgba(39,39,39,0) 100%)
+}
+.outer_circle {
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid #FFFF00;
+    border-radius: 9999999px;
+}
+
+.inner_circle {
+    height: 32px;
+    width: 32px;
+    background-color: #FFFF00;
+    box-shadow: inset 1px 1px 3px 0 #979700;
+    border-radius: 9999999px;
+}
+
+.status_container {
+    border-radius: .625rem;
+    background-color: #171A1D;
+}
+
+.separator {
+    margin-top: -1.25rem;
+    margin-right: -1.25rem;
+    padding-bottom:  -3.125rem;
+}
+
+.outer_circle_dropoff {
+    box-sizing: border-box;
+    border: 2px solid #1E2227;
+    border-radius: 9999px;
+    background-color: #0F1216;
+    box-shadow: inset 2px 0 3px 0 #080C0F;
+}
+
+.inner_circle_dropoff {
+    border-radius: 99999px;
+    background-color: #11161B;
+    box-shadow: 0 2px 4px 0 #000000;  
+}
+
+.profileImg {
+    margin-top: -100px;
+}
+
+.trackOrder {
+    background: linear-gradient(45deg, #080C0F 0%, #131618 100%);
+}
+
+.trackOrder:disabled {
+    color: #353636;
+}
+
+.pointer {
+    cursor:pointer;
+}

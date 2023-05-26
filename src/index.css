@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "AvenirMedium";
+  src: url("./fonts/Avenir-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AvenirBook";
+  src: url("./fonts/Avenir45-BookOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "AvenirHeavy";
+  src: url("./fonts/Avenir85-HeavyOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./fonts/GothamMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "GothamMediumItalic";
+  src: url("./fonts/GothamMedium-Italic.woff") format("woff");
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+div#root {
+  width: 100%;
+  height: 100%;
+}
+
+.grey-dot-bg {
+  background-color: #989898;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.5);
+}
+
+.blue-dot-bg {
+  background-color: #0394FF;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.5);
+}
+
+.nickname {
+  size: 0.625rem;
+  line-height: .875rem;
+  color: #7B7B7B;
+}

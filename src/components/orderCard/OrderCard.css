@@ -1,0 +1,30 @@
+.card {
+    border-radius: 1.5625rem;
+    background: linear-gradient(45deg, #080C0F 0%, rgba(39,39,39,0) 100%);
+    border-right-width: 0px;
+    border-width: 1px;
+    box-sizing: content-box;
+}
+
+.date {
+    color: #979797;
+}
+
+.pickUpBtn {
+    height: 3.125rem;
+    width: 12.4375rem;
+    border-radius: 0 25px 25px 25px;
+    background: linear-gradient(45deg, #080C0F 0%, rgba(38,38,38,0.64) 100%);
+}
+
+.pickupHour {
+    color: #FFFF00;
+}
+
+.resumeBtn {
+    height: 2.7419rem;
+    width: 8.125rem;
+    border-radius: 1.3706rem;
+    background-color: #FFFF00;
+    box-shadow: inset -2px -2px 4px 0 #C2C200, inset 2px 2px 4px 0 #FFFF80;
+}
